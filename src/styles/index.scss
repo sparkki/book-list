@@ -1,0 +1,27 @@
+@import './base';
+
+html, body, .App > div {
+  min-height: 100% !important;
+}
+
+#root {
+  min-height: 100% !important;
+}
+
+body {
+  font-family: $font-stack-UI;
+  background: linear-gradient(to bottom,
+    $darker-gray-color 0,
+    $darker-gray-color 10rem,
+    $bg-color 10rem,
+    $bg-color 100%,
+  );
+  color: $darker-gray-color;
+  margin: 0;
+  // height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

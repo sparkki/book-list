@@ -1,0 +1,33 @@
+@import './base';
+
+.card-header {
+    min-height: 3.4375rem;
+}
+
+.add-btn {
+  background-color: $turq-color;
+  font-weight: bolder;
+  border-color: $turq-color;
+}
+
+.add-btn:hover, .add-btn:active {
+  background-color: $dark-turq-color !important;
+  border-color: $turq-color !important;
+}
+
+#add-hdr {
+  margin: 0;
+  padding:  0.25rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

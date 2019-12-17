@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "author": "Flynn, Gillian",
+      "title": "Sharp Objects",
+      "description": "“I just think some women aren't made to be mothers. And some women aren't made to be daughters.”\n― Gillian Flynn, Sharp Objects",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "author": "Tartt, Donna",
+      "title": "The Secret History",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "author": "VanderMeer, Jeff",
+      "title": "Annihilation",
+      "description": "Area X has been cut off from the rest of the world for decades. Nature has reclaimed the last vestiges of human civilization. The first expedition returned with reports of a pristine, Edenic landscape; the second expedition ended in mass suicide, the third in a hail of gunfire as its members turned on one another..."
+    }
+  ]
+}

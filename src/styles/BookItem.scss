@@ -1,0 +1,61 @@
+@import './base';
+
+.card-header {
+    min-height: 3.4375rem;
+}
+
+.card-header:hover {
+  background-color: $light-gray-color;
+}
+
+.card-link {
+  color: $dark-blue-color;
+  font-size: 1.125rem;
+}
+
+.card-link:hover {
+  color: $darker-blue-color;
+  font-weight: bold;
+  #ellipsis {
+    color: $darker-gray-color;
+  }
+}
+
+.active {
+  background-color: $light-gray-color;
+  color: $darker-blue-color;
+  font-weight: bold;
+  #ellipsis {
+    color: $darker-gray-color;
+  }
+}
+
+.titleName {
+  font-weight: bold;
+}
+
+#ellipsis {
+  color: $light-gray-color;
+}
+
+
+.btn-danger {
+  background-color: $orange-color !important;
+  border-color: $orange-color !important;
+}
+
+.btn-danger:hover, btn-danger:active {
+  background-color: $dark-orange-color !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

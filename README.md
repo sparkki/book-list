@@ -1,5 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#################################################
+
+
+To start book-list application write npm run dev in the project directory:
+
+## `npm run dev`
+
+Starts both json-server and React app (book-list).
+
+Thus, backend is implemented with JSON Server, see more info:
+https://www.npmjs.com/package/json-server
+
+Please note that book-list app has been developed and tested only with Chrome browser.
+
+
+
+###################################################
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

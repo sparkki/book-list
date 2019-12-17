@@ -1,0 +1,47 @@
+@import '/base';
+
+.App {
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#app-hdr {
+  display: block;
+  display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #app-hdr {
+    font-size: 2rem;
+  }
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #app-hdr {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $light-bg-color;
+  font-family: $font-stack-Hdr;
+  margin: 0.375em 0;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #app-hdr {
+    font-size: 2.625rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

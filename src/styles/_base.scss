@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import-normalize;
+$font-stack-UI: 'Raleway', sans-serif;
+$font-stack-Hdr: 'Open Sans', sans-serif;
+$turq-color: #00B8AE;
+$dark-turq-color: #009f96;
+$dark-blue-color: #2C4964;
+$darker-blue-color: #30353C;
+$light-gray-color: #EBEBEB;
+$darker-gray-color: #363E47;
+$light-bg-color: #F6F9F8;
+$bg-color: #DBD9D8;
+$orange-color: #DF6210;
+$dark-orange-color: #cd5a0f;
+
+/* remove rounding from cards, buttons and inputs */
+.btn, .form-control,.card {
+   border-radius: 0;
+ }
+
+ .save-btn {
+   min-width: 7rem;
+   font-weight: bolder;
+   background-color: $turq-color !important;
+   border-color: $turq-color !important;
+ }
+
+ .save-btn:hover {
+    background-color: $dark-turq-color !important;
+ }
+
+ .save-btn:active {
+   background-color: $dark-turq-color !important;
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
