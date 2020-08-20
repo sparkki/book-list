@@ -4,8 +4,6 @@ import AddNewBook from './components/AddNewBook';
 import BookList from './components/BookList';
 import './styles/App.scss';
 //const apiEndpoint = 'http://localhost:5000/books';
-//const apiEndpoint = 'https://my-json-server.typicode.com/books/';
-//const apiEndpoint = 'https://sparkki.github.io/book-list/db.json';
 const apiEndpoint = 'https://my-json-server.typicode.com/sparkki/book-list/books/';
 
 
