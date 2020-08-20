@@ -3,7 +3,8 @@ import axios from 'axios';
 import AddNewBook from './components/AddNewBook';
 import BookList from './components/BookList';
 import './styles/App.scss';
-const apiEndpoint = 'http://localhost:5000/books';
+//const apiEndpoint = 'http://localhost:5000/books';
+const apiEndpoint = 'https://my-json-server.typicode.com/books/';
 
 
 class App extends React.Component {
