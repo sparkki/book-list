@@ -6,7 +6,7 @@ import './styles/App.scss';
 //const apiEndpoint = 'http://localhost:5000/books';
 //ao toimi osin
 //const apiEndpoint = 'https://my-json-server.typicode.com/sparkki/book-list/books/';
-const apiEndpoint = 'http://my-json-server.typicode.com/sparkki/db';
+const apiEndpoint = 'https://my-json-server.typicode.com/sparkki/db/books';
 
 
 class App extends React.Component {
