@@ -6,7 +6,7 @@ import './styles/App.scss';
 //const apiEndpoint = 'http://localhost:5000/books';
 //ao toimi osin, db samassa repossa
 //const apiEndpoint = 'https://my-json-server.typicode.com/sparkki/book-list/books/';
-const apiEndpoint = 'https://my-json-server.typicode.com/sparkki/db/db';
+const apiEndpoint = 'https://my-json-server.typicode.com/sparkki/db';
 
 
 
